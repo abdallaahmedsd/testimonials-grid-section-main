@@ -180,15 +180,6 @@ body {
   .card.jeanette-harmon {
     grid-area: jeanette;
   }
-
-  .container .card.jonathan-walters h2,
-  .container .card.jeanette-harmon h2,
-  .container .card.kira-whittle h2,
-  .container .card.jonathan-walters .preview,
-  .container .card.jeanette-harmon .preview,
-  .container .card.kira-whittle .preview {
-    max-width: 200px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -211,5 +202,14 @@ body {
   }
   .container {
     width: 75%;
+  }
+
+  .container .card.jonathan-walters h2,
+  .container .card.jeanette-harmon h2,
+  .container .card.kira-whittle h2,
+  .container .card.jonathan-walters .preview,
+  .container .card.jeanette-harmon .preview,
+  .container .card.kira-whittle .preview {
+    max-width: 200px;
   }
 }
