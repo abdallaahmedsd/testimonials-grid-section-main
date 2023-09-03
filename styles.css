@@ -25,7 +25,7 @@ body {
 }
 
 .container .card {
-  padding: 30px;
+  padding: 22px 30px;
   border-radius: 6px;
   box-shadow: 0 10px 10px 2px #a9aeb24a;
 }
@@ -152,7 +152,7 @@ body {
   .container {
     display: grid;
     gap: 20px;
-    margin: 40px auto 20px;
+    margin: 50px auto 20px;
   }
 
   .container .card {
@@ -161,7 +161,7 @@ body {
   }
 
   .container .card.daniel-clifford .bg-quotation {
-    height: 120px;
+    height: 111px;
     right: 15%;
   }
 
@@ -179,6 +179,15 @@ body {
   }
   .card.jeanette-harmon {
     grid-area: jeanette;
+  }
+
+  .container .card.jonathan-walters h2,
+  .container .card.jeanette-harmon h2,
+  .container .card.kira-whittle h2,
+  .container .card.jonathan-walters .preview,
+  .container .card.jeanette-harmon .preview,
+  .container .card.kira-whittle .preview {
+    max-width: 200px;
   }
 }
 
@@ -203,9 +212,5 @@ body {
 
   .container {
     width: 80%;
-  }
-
-  .card.kira-whittle .preview {
-    padding-right: 50px;
   }
 }
