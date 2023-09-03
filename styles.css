@@ -209,7 +209,6 @@ body {
     grid-template-areas: "daniel daniel daniel daniel daniel daniel jonathan jonathan jonathan kira kira kira"
       "jeanette jeanette jeanette patrick patrick patrick patrick patrick patrick kira kira kira";
   }
-
   .container {
     width: 75%;
   }
